@@ -1,0 +1,12 @@
+<mvc:View
+xmlns = "sap.m"
+xmlns:mvc = "sap.ui.core.mvc"
+controllerName="ui5.controllers.App"
+>
+<Carousel loop="false">
+    <pages>
+        <Button text="Carousel Object One" press=".onPress1"></Button>
+        <Image src="./Assets/image1.png"></Image>
+    </pages>
+</Carousel>
+</mvc:View>
